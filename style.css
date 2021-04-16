@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    font-family: 'Kalam', cursive;
+}
+.header-style
+{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background-color: #454949;
+}
+
+.container{
+    padding: 20px;
+}
+
+.btn
+{
+    background-color: #d8eb34;
+    border: none;padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 6px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #454949;
+    text-align: center;
+ }
+ textarea{
+     padding: 20px;
+     width: 100%;
+     padding-bottom: 70px;
+ }
