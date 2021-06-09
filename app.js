@@ -14,7 +14,8 @@ function errorHandler(error) {
 }
 
 btn.addEventListener("click", function btnHandler() {
-  fetch(translateURL(userinput.value))
+  var inputTxt=txtIn.value
+  fetch(translateURL(inputTxt))
     .then((response) => response.json())
     .then((json) => {
       output.innerText = json.contents.translated;
